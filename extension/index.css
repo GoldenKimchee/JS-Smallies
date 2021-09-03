@@ -1,0 +1,35 @@
+body {
+    margin:0;
+    padding: 10px;
+}
+
+input {
+    width: 99%;
+    padding:5px 8px;
+    border: lightcoral solid 2px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: lightcoral;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding-left:0;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+li a {
+    color:lightcoral;
+    text-decoration: lightblue solid underline;
+}

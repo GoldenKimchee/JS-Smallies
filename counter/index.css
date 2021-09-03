@@ -1,0 +1,85 @@
+/*
+X  pixels   |   V  em ( takes parent element font-size ) < rem ( takes top element (html) font-size )
+V fr 
+V ch ( 1ch = the spacing of one zero ) for minmax for grid
+V vh vw ( in viewport height/width aka window size )
+*/
+
+html {
+    letter-spacing: 1px;
+    font-size: 10px; /* use 62.5% */
+    color: white;
+}
+
+body {
+    font-weight: bold;
+    text-align: center;
+}
+
+.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("station.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(2px);
+    z-index: -2;
+}
+
+p {
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+button {
+    letter-spacing: 2px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 25%;
+}
+
+.filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: overlay;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+#increment-btn {
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    font-size: 4rem;
+    background: darkred;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#save-btn {
+    margin-top: 15px;
+    display: block;
+    font-size: 3rem;
+    width: 10rem;
+    height: 5rem;
+    background: darkgreen;
+    margin-left: auto;
+    margin-right: auto;
+}
+

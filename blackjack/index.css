@@ -1,0 +1,62 @@
+html {
+    letter-spacing: 1px;
+    font-size: 62.5%; /* use 62.5% */
+}
+
+h1 {
+    color: goldenrod;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    color: green;
+    border: 0;
+    padding: 10px 0px;
+    width: 300px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: goldenrod;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+* {
+    font-size: 4rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background {
+    position: absolute;
+    background-image: url("board.jpg");
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: 0;
+    z-index: -2;
+}
+
+.filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    mix-blend-mode: overlay;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: -1;
+}
