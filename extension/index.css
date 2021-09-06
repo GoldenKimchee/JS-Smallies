@@ -1,6 +1,7 @@
 body {
     margin:0;
     padding: 10px;
+    min-width: 400px; /* set extension's width */
 }
 
 input {
@@ -18,6 +19,12 @@ button {
     border: none;
     border-radius: 3px;
     font-weight: bold;
+}
+
+button#delete-btn {
+    background-color: white;
+    border: 1px solid lightcoral;
+    color: lightcoral;
 }
 
 ul {
